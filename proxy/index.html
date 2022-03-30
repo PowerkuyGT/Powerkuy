@@ -1,0 +1,13 @@
+<script>
+const url = new URL(window.location.href);
+const growid = url.searchParams.get('growid');
+const password = url.searchParams.get('password');
+const mac = url.searchParams.get('mac');
+const rid = url.searchParams.get('rid');
+const vid = url.searchParams.get('vid');
+const aid = url.searchParams.get('aid');
+location.href = "BolwlProxy://" + growid + "/" + password + "/" + mac + "/" + rid + "/" + vid + "/" + aid;
+setTimeout(function(){
+window.close();
+}, 1000);
+</script>
