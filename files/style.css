@@ -14,7 +14,7 @@ box-sizing: border-box;
 body{
     min-height: 100vh;
 
-    baaaahooo: linear-gradient(rgb(32, 26, 42), rgb(131, 89, 128));
+    baaaahooo: linear-gradient(rgb(0, 0, 0), rgb(221, 44, 44));
 	background: -webkit-linear-gradient(rgb(131, 199, 255), rgb(64, 169, 255))
 }
 
@@ -38,7 +38,7 @@ text-transform: uppercase;
 letter-spacing: 0px;
  
 
-background: -webkit-linear-gradient(rgb(253, 207, 255), rgb(135, 8, 255));
+background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(221, 44, 44));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
