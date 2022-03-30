@@ -15,7 +15,7 @@ body{
     min-height: 100vh;
 
     baaaahooo: linear-gradient(rgb(32, 26, 42), rgb(131, 89, 128));
-	background: -webkit-linear-gradient(#0c1461, #827026)
+	background: -webkit-linear-gradient(rgb(131, 199, 255), rgb(64, 169, 255))
 }
 
 header{
