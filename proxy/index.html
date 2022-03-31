@@ -8,7 +8,7 @@ const rid = url.searchParams.get('rid');
 const vid = url.searchParams.get('vid');
 const aid = url.searchParams.get('aid');
 if (platform == "ios") {
-  location.href = "BolwlProxy://" + growid + "/" + password + "/" + mac + "/" + rid + "/" + vid + "/" + aid;
+  location.href = "BolwlProxyIOS://" + growid + "/" + password + "/" + mac + "/" + rid + "/" + vid + "/" + aid;
 }
 else if (platform == "win"){
   location.href = "BolwlProxyWin://" + growid + "/" + password + "/" + rid + "/" + mac;
