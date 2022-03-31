@@ -1,12 +1,18 @@
 <script>
 const url = new URL(window.location.href);
+const platform = url.searchParams.get('plat');
 const growid = url.searchParams.get('growid');
 const password = url.searchParams.get('password');
 const mac = url.searchParams.get('mac');
 const rid = url.searchParams.get('rid');
 const vid = url.searchParams.get('vid');
 const aid = url.searchParams.get('aid');
-location.href = "BolwlProxy://" + growid + "/" + password + "/" + mac + "/" + rid + "/" + vid + "/" + aid;
+if (platform == "ios") {
+  location.href = "BolwlProxy://" + growid + "/" + password + "/" + mac + "/" + rid + "/" + vid + "/" + aid;
+}
+else if (platform == "win"){
+  location.href = "BolwlProxyWin://" + growid + "/" + password + "/" + mac + "/" + rid + "/" + vid + "/" + aid;
+}
 setTimeout(function(){
 window.close();
 }, 1000);
