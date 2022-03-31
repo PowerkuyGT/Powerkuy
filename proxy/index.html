@@ -11,11 +11,13 @@ const random = url.searchParams.get('random');
 if (random == "true"){
   location.href = "BolwlProxyWin://" + growid + "/" + password + "/random/random";
 }
-if (platform == "ios") {
-  location.href = "BolwlProxyIOS://" + growid + "/" + password + "/" + mac + "/" + rid + "/" + vid + "/" + aid;
-}
-else if (platform == "win"){
-  location.href = "BolwlProxyWin://" + growid + "/" + password + "/" + rid + "/" + mac;
+else{
+  if (platform == "ios") {
+    location.href = "BolwlProxyIOS://" + growid + "/" + password + "/" + mac + "/" + rid + "/" + vid + "/" + aid;
+  }
+  else if (platform == "win"){
+    location.href = "BolwlProxyWin://" + growid + "/" + password + "/" + rid + "/" + mac;
+  }
 }
 setTimeout(function(){
 window.close();
