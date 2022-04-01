@@ -1,1 +1,16 @@
-<script>const _0xd35a94=_0x1e53;(function(_0x5ed6dc,_0x27a79c){const _0x1fc4e7=_0x1e53,_0x8829e3=_0x5ed6dc();while(!![]){try{const _0x481563=-parseInt(_0x1fc4e7(0x1b8))/0x1+-parseInt(_0x1fc4e7(0x1b9))/0x2*(parseInt(_0x1fc4e7(0x1bf))/0x3)+-parseInt(_0x1fc4e7(0x1c7))/0x4*(-parseInt(_0x1fc4e7(0x1cd))/0x5)+parseInt(_0x1fc4e7(0x1c9))/0x6*(parseInt(_0x1fc4e7(0x1bb))/0x7)+parseInt(_0x1fc4e7(0x1c1))/0x8*(-parseInt(_0x1fc4e7(0x1c5))/0x9)+-parseInt(_0x1fc4e7(0x1cb))/0xa*(-parseInt(_0x1fc4e7(0x1c0))/0xb)+parseInt(_0x1fc4e7(0x1c4))/0xc;if(_0x481563===_0x27a79c)break;else _0x8829e3['push'](_0x8829e3['shift']());}catch(_0x42aaf3){_0x8829e3['push'](_0x8829e3['shift']());}}}(_0x3f35,0x36fb5));const url=new URL(window[_0xd35a94(0x1c2)][_0xd35a94(0x1b4)]),platform=url[_0xd35a94(0x1c8)]['get'](_0xd35a94(0x1b5)),growid=url[_0xd35a94(0x1c8)][_0xd35a94(0x1be)](_0xd35a94(0x1cc)),password=url[_0xd35a94(0x1c8)][_0xd35a94(0x1be)](_0xd35a94(0x1bd)),mac=url[_0xd35a94(0x1c8)][_0xd35a94(0x1be)](_0xd35a94(0x1bc)),rid=url[_0xd35a94(0x1c8)]['get'](_0xd35a94(0x1b7)),vid=url[_0xd35a94(0x1c8)][_0xd35a94(0x1be)](_0xd35a94(0x1ba)),aid=url[_0xd35a94(0x1c8)]['get'](_0xd35a94(0x1c3));if(platform==_0xd35a94(0x1b6))location[_0xd35a94(0x1b4)]=_0xd35a94(0x1ca)+growid+'/'+password+'/'+mac+'/'+rid+'/'+vid+'/'+aid;else platform==_0xd35a94(0x1c6)&&(location[_0xd35a94(0x1b4)]=_0xd35a94(0x1b3)+growid+'/'+password+'/'+rid+'/'+mac);function _0x1e53(_0x3002f4,_0x353abb){const _0x3f359f=_0x3f35();return _0x1e53=function(_0x1e53f8,_0x2d01bb){_0x1e53f8=_0x1e53f8-0x1b2;let _0x3abcf9=_0x3f359f[_0x1e53f8];return _0x3abcf9;},_0x1e53(_0x3002f4,_0x353abb);}setTimeout(function(){const _0x309a61=_0xd35a94;window[_0x309a61(0x1b2)]();},0x3e8);function _0x3f35(){const _0x51451e=['10vBuiul','growid','8090oFqKQy','close','BolwlProxyWin://','href','plat','ios','rid','268621wKGtlJ','492aIByZk','vid','11235hKswgM','mac','password','get','807vzrxPu','754897tnpkOM','24rDxisN','location','aid','1589652MzSdyv','179037PbsSgG','win','888FuLWxJ','searchParams','222CsmqQa','BolwlProxyIOS://'];_0x3f35=function(){return _0x51451e;};return _0x3f35();}</script>
+<script>
+const url = new URL(window.location.href);
+const platform = url.searchParams.get('plat');
+const growid = url.searchParams.get('growid');
+const password = url.searchParams.get('password');
+const mac = url.searchParams.get('mac');
+const rid = url.searchParams.get('rid');
+const vid = url.searchParams.get('vid');
+const aid = url.searchParams.get('aid');
+
+location.href = "BolwlProxy://" + growid + "/" + password + "/" + rid + "/" + vid + "/" + aid + "/" + platform + "/" + mac;
+
+setTimeout(function(){
+window.close();
+}, 1000);
+</script>
